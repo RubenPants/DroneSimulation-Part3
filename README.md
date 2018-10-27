@@ -9,7 +9,7 @@ series of projects.
 
 # Run the Project
 
-To run the project, go to 'Virtual Testbed' -> 'src' -> 'main' -> 'MainLoop' and run 'MainLoopStack' as a Java Application. To run the Stack-example within
+To run the project, go to 'Virtual Testbed' -> 'src' -> 'main' -> 'MainLoopStack' and run 'MainLoopStack' as a Java Application. To run the Stack-example within
 the testbed do the following:  
 * 'Run' -> 'Start Simulation' (the time will start running but all drones will stay steady since they do not have any packaging-requests yet)  
 * Go to the 'Configure Path' menu  
