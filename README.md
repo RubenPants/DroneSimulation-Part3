@@ -40,7 +40,7 @@ corresponding functionality to the project. A quick overview of these windows ar
 
 In this version (the third one) multiple drones will work together as a distributed system to deliver packages at the requested airport. The drones will
 communicate with each other to make sure that they do not crash into each other. The drones will also communicate with the airports to know if they have
-the permission to land. 
+the permission to land. _Part3_ will use the same autopilot-system as _Part4_.
 
 
 
