@@ -77,7 +77,7 @@ This project is the seccond part of a larger whole:
 Link: https://github.com/RubenPants/DroneSimulation-Part1  
 * __Part2__ - Take off, fly, land and taxi in the testbed. Control drone with phone.  
 Link: https://github.com/RubenPants/DroneSimulation-Part2  
-* __Part3__ - Example of a worst case of the package-distributing-system of _Part4_.  
+* __Part3__ - Example of a worst case of the package-distributing-system of _Part4_ where all the drones try to land at the same airport.  
 Link: https://github.com/RubenPants/DroneSimulation-Part3  
 * __Part4__ - A package-distributing-system where multiple drones must work together to distributed packages in a virtual environment.  
 Link: https://github.com/RubenPants/DroneSimulation-Part4  
