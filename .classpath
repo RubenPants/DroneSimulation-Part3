@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="AutoPilot/src"/>
+	<classpathentry kind="src" path="Misc/Vision Experiments/src"/>
+	<classpathentry kind="src" path="Virtual TestBed/src"/>
+	<classpathentry kind="lib" path="AutoPilot/lib/jar/jocl-2.0.0.jar"/>
+	<classpathentry kind="lib" path="AutoPilot/lib/jar/lwjgl_util.jar"/>
+	<classpathentry kind="lib" path="AutoPilot/lib/jar/opencv-320.jar"/>
+	<classpathentry kind="lib" path="Misc/Vision Experiments/lib/jar/jocl-2.0.0.jar"/>
+	<classpathentry kind="lib" path="Misc/Vision Experiments/lib/jar/opencv-320.jar"/>
+	<classpathentry kind="lib" path="Virtual TestBed/lib/jar/autopilot.jar"/>
+	<classpathentry kind="lib" path="Virtual TestBed/lib/jar/lwjgl_util.jar"/>
+	<classpathentry kind="lib" path="Virtual TestBed/lib/jar/lwjgl.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="output" path="AutoPilot/bin"/>
+</classpath>

@@ -5,6 +5,10 @@ A simulation of a multiple drones which will fly in a three dimensional virtual 
 to another as fast as possible. This (intermediary) project will demonstrate a __worst case example__ of the next project (_DroneSimulation-Part4_) of a 
 series of projects.
 
+<p align="center">
+  <img src="https://github.com/RubenPants/DroneSimulation-Part3/blob/master/Virtual-testbed.gif"/>
+</p>
+
 
 
 # Run the Project

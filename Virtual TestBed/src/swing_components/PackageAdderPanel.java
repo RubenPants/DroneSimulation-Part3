@@ -1,6 +1,7 @@
 package swing_components;
 
 import java.awt.Color;
+import java.awt.Frame;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
 import java.awt.event.ActionListener;
@@ -9,6 +10,7 @@ import java.awt.event.KeyEvent;
 
 import javax.swing.JButton;
 import javax.swing.JComboBox;
+import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
@@ -21,7 +23,6 @@ public class PackageAdderPanel extends JPanel {
 	private JTextField toA;
 	private JComboBox<String> toG;
 	private JButton btn;
-	private JButton btnStack;
 	
 	public PackageAdderPanel(){
 		setLayout(new GridBagLayout());
@@ -37,7 +38,6 @@ public class PackageAdderPanel extends JPanel {
 		toG.addItem("1");
 		
 		btn = new JButton("Request");
-		btnStack = new JButton("Test Stack");
 		
 		fromA.addKeyListener(new KeyAdapter() {
 			public void keyReleased(KeyEvent e) {
@@ -131,12 +131,6 @@ public class PackageAdderPanel extends JPanel {
 		c.gridy = 5;
 		add(btn, c);
 		////////////////////////////////////////////////////////////////////////
-		c.fill = GridBagConstraints.HORIZONTAL;
-		c.weightx = 0.0;
-		c.gridx = 1;
-		c.gridy = 6;
-		add(btnStack, c);
-		////////////////////////////////////////////////////////////////////////
 	}
 	
 	public entities.Package getPackage(){
@@ -160,10 +154,6 @@ public class PackageAdderPanel extends JPanel {
 	
 	public void addPackageListener(ActionListener listener){
 		btn.addActionListener(listener);
-	}
-	
-	public void testStackListener(ActionListener listener){
-		btnStack.addActionListener(listener);
 	}
 	
 }

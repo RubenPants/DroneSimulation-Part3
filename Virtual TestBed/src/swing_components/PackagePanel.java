@@ -16,7 +16,6 @@ import javax.swing.JScrollPane;
 import javax.swing.JTable;
 
 import control.WorldManager;
-import entities.Package;
 
 public class PackagePanel extends JPanel{
 	
@@ -59,27 +58,10 @@ public class PackagePanel extends JPanel{
 		errorLabel.setMinimumSize(new Dimension(280, 30));
 		
 		PackageAdderPanel packAdder = new PackageAdderPanel();
-		// TODO: Add package
 		packAdder.addPackageListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				try {
 					manager.addNewPackage(packAdder.getPackage());
-					errorLabel.setText("");
-				} catch (IllegalArgumentException e1) {
-					errorLabel.setText(e1.getMessage());
-				}
-				packagesModel.fireTableDataChanged();
-			}
-		});
-		
-		packAdder.testStackListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				try {
-					for (int airport = 1; airport <= 8; airport++) {
-						for (int gate = 0; gate <= 1; gate++) {
-							manager.addNewPackage(new Package(airport, gate, 0, 0));
-						}
-					}
 					errorLabel.setText("");
 				} catch (IllegalArgumentException e1) {
 					errorLabel.setText(e1.getMessage());
